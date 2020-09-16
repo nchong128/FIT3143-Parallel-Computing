@@ -38,7 +38,7 @@ int main()
 	if(my_rank == 0){
 		printf("Rank: %d. Reading VA text file\n", my_rank);
 
-	    	// Call the read from file function
+        // Call the read from file function
 		pArrayNum1 = ReadFromFile("VA.txt", &row, &col);
 		
 	    	if(pArrayNum1 == 0)
